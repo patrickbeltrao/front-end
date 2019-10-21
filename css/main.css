@@ -7,6 +7,10 @@
 }
 
 
+
+/*     LOGO -TOPO   */
+
+
 .div-header-topo{
     width: 100%;
     height: 100px;
@@ -27,19 +31,20 @@
     margin: 0 100px 0 0;
     padding: 20px;
     
-
 }
+
+
+
+
 
 /*     NAV     */
 
 .nav-header{
     width: 100%;
-    height: 70px;
+    height: 65px;
     background: #000;
     display: table;
     
-    
-   
 }
 
 .ul-nav{
@@ -64,11 +69,12 @@
     color: #000;
 }
 .ul-nav li a{
-    
     text-decoration: none;
     color: #fff;
     font-size: 1.5em;
-    padding: 15px 17px;
+    padding: 15px 50px;
     
-
+}
+.ul-nav li:last-child{
+    margin-right: 60px;
 }
