@@ -8,12 +8,23 @@
 
 
 
+
+/*   HEADER     */
+
+.header{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
 /*     LOGO -TOPO   */
 
 
 .div-header-topo{
     width: 100%;
     height: 100px;
+    background-color: #ccc;
 
 }
 
@@ -77,4 +88,27 @@
 }
 .ul-nav li:last-child{
     margin-right: 60px;
+}
+
+
+
+/*    IMG-BACKGROUND    */
+
+.div-header-base{
+    width: 100vw;
+    height: 100%;
+    
+}
+
+.div-header-base img{
+    width: 100%;
+    height: 550px;
+    color: #ccc;
+    transition: all 1s ease-in-out;
+    
+}
+
+.div-header-base img:hover{
+    transform: scale(1.018);
+   
 }
