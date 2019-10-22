@@ -320,9 +320,73 @@ form h3{
     height: 100%;
 }
 
-.card-b{
-    width: 180px;
-    height: 400px;
-    background-color: red;
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    
+    
 }
 
+.card-b{
+    width: 200px;
+    height: 420px;
+    margin-bottom: 40px;
+    position: relative;
+    
+}
+
+.card-b:hover{
+    border: 1px solid #000;
+   
+}
+
+.card-b-img{
+    width: 200px;
+    height: 180px;
+}
+
+.card-b h4{
+    font-size: 1.8em;
+    margin: 2px 0 2px 8px;
+}
+
+.card-b p{
+    font-size: 1.2em;
+    color: rgb(112, 110, 110);
+    margin: 2px 0 2px 8px;
+}
+
+#btn-detalhes{
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #000;
+    display: table;
+    margin: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#btn-detalhes:hover{
+    background: #00ffff;
+}
+
+#btn-detalhes a{
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+#btn-detalhes a:hover{
+    color: #000;
+}
+
+#card-b-info li{
+    list-style-type: square;
+}
