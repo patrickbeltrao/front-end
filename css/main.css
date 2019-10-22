@@ -24,7 +24,7 @@
 .div-header-topo{
     width: 100%;
     height: 100px;
-    background-color: #ccc;
+    background-image: linear-gradient(transparent, #ccc);
 
 }
 
@@ -165,11 +165,16 @@ main{
     
 }
 
+.card-hover:hover{
+    transform: scale(1.01);
+}
+
 .card-2{
     background-image: url(../imagens/bay-beach-brazil-351283.jpg);
     background-size: cover;
     
 }
+
 
 .card-3{
     background-image: url(../imagens/2012-11_Lagoinha_137-740x431@2x.jpg);
@@ -186,7 +191,7 @@ main{
 .legenda{
     width: 30%;
     height: 100%;
-    background: rgba(0, 225, 255, 0.164);
+    background: rgba(0, 225, 255, 0.418);
     position: absolute;
     top: 0;
     right: 0;
@@ -205,7 +210,7 @@ main{
 
 .conteudo p{
     font-size: 1em;
-    color: rgb(8, 6, 6);
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     line-height: 1.5;
     
@@ -217,10 +222,15 @@ main{
 
 .conteudo div{
     text-align: center;
-    border: 1px solid rgba(248, 244, 244, 0.253);
+    border: 1px solid rgb(7, 0, 0);
     border-radius: 30px;
     background: rgb(0, 0, 0);
 }
+
+.conteudo div:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+
 
 .conteudo div h2{
     color: #fff;
@@ -229,4 +239,8 @@ main{
 .conteudo div h2 a{
     color: #fff;
     text-decoration: none;
+}
+
+.conteudo div h2 a:hover{
+    color: aqua;
 }
