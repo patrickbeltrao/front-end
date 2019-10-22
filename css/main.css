@@ -130,7 +130,6 @@ main{
 .sec-1{
     width: 100%;
     height: 100%;
-    position: relative;
 
 }
 
@@ -144,32 +143,90 @@ main{
 }
 
 .div-cards{
+    float: right;
     width: 65%;
+    
+}
+
+.cards{
+    width: 100%;
+    height: 400px;
+    float: right;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    
+
+}
+
+.card-1{
+    background-image: url(../imagens/beach-clouds-daytime-994605.jpg);
+    background-size: cover;
+    
+}
+
+.card-2{
+    background-image: url(../imagens/bay-beach-brazil-351283.jpg);
+    background-size: cover;
+    
+}
+
+.card-3{
+    background-image: url(../imagens/2012-11_Lagoinha_137-740x431@2x.jpg);
+    background-size: cover;
+    
+}
+
+.card-4{
+    background-image: url(../imagens/Lindo-Farol-da-Barra-foto-Ana-Paula-Garrido-640x440.jpg);
+    background-size: cover;
+    
+}
+
+.legenda{
+    width: 30%;
+    height: 100%;
+    background: rgba(0, 225, 255, 0.164);
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+
+.title1{
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+
+}
+
+.conteudo{
     float: right;
 }
 
-.card{
-    width: 100%;
-    height: 400px;
-    margin: 10px 15px 10px 0;
-    position: relative;
+.conteudo p{
+    font-size: 1em;
+    color: rgb(8, 6, 6);
+    letter-spacing: 1px;
+    line-height: 1.5;
     
 }
 
-.card-img{
-    width: 100%;
-    height: 400px;
-    margin-bottom: 20px;
-    
+.conteudo p b{
+    font-size: 1.5em;
 }
 
+.conteudo div{
+    text-align: center;
+    border: 1px solid rgba(248, 244, 244, 0.253);
+    border-radius: 30px;
+    background: rgb(0, 0, 0);
+}
 
-.legend{
-    width: 100%;
-    height: 150px;
-    background-color:rgba(0, 0, 255, 0.199);
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.conteudo div h2{
+    color: #fff;
+}
 
+.conteudo div h2 a{
+    color: #fff;
+    text-decoration: none;
 }
